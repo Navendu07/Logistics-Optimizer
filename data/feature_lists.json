@@ -1,0 +1,46 @@
+{
+  "input_features_numeric": [
+    "order_value_inr",
+    "promised_delivery_days",
+    "customer_rating",
+    "delivery_cost_inr",
+    "distance_km",
+    "fuel_consumption_l",
+    "toll_charges_inr",
+    "fuel_cost",
+    "labor_cost",
+    "vehicle_maintenance",
+    "insurance",
+    "packaging_cost",
+    "technology_platform_fee",
+    "other_overhead",
+    "rating",
+    "priority_num"
+  ],
+  "input_features_categorical": [
+    "order_date",
+    "customer_segment",
+    "priority",
+    "product_category",
+    "origin",
+    "destination",
+    "special_handling",
+    "carrier",
+    "quality_issue",
+    "route",
+    "weather_impact",
+    "feedback_date",
+    "feedback_text",
+    "would_recommend",
+    "issue_category"
+  ],
+  "dropped_leakage_or_ids": [
+    "actual_delivery_days",
+    "delivery_status",
+    "is_delayed",
+    "order_id",
+    "traffic_delay_minutes"
+  ],
+  "dropped_high_card_text": [],
+  "output_feature": "is_delayed"
+}
